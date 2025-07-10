@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body id="advanced_page">
+    <div>
+        <a href="google.html">Back</a>
+    </div>
+    <h1>Advanced Search</h1>
+    <form action="https://www.google.com/search" style="display: flex; flex-direction: column; align-items: flex-start;">
+        <label for="all-words">All these words:</label>
+        <input type="text" id="all-words" name="as_q">
+        <br>
+        <label for="exact-word">Exact word or phrase:</label>
+        <input type="text" id="exact-word" name="as_epq">
+        <br>
+        <label for="any-word">Any of these words:</label>
+        <input type="text" id="any-word" name="as_oq">
+        <br>
+        <label for="none-words">None of these words:</label>
+        <input type="text" id="none-words" name="as_oq">   
+        <br>
+        <button id="advanced" type="submit">Advanced Search</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+$color: rgb(60, 0, 255);
+
+a {
+    font-size: 14px;
+    color: $color;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+
+    div {
+        text-align: right;
+    }
+}
